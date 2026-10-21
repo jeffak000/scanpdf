@@ -1,4 +1,10 @@
-# ScanPDF · 纸间手机网页扫描
+# ScanPDF · 扫描王替代扫描转PDF
+
+支持自动裁边、透视矫正，以及**浅色纸纹／背面透印淡化**。
+
+**演示站：[https://pdf.090803.xyz/](https://pdf.090803.xyz/)**
+
+建议使用手机自带浏览器打开（iPhone 使用 Safari），方便通过系统分享菜单将 PDF 发送到微信。iPhone Safari 已实测可以分享；不建议在微信内置浏览器中使用文件分享。
 
 独立编写的静态网页，没有复用 Nitidoc 源码。将 `dist/` 部署到 HTTPS 静态站点即可使用。相机需要 HTTPS 或 localhost；手机访问电脑局域网 HTTP 地址通常不能使用实时相机。
 
@@ -21,7 +27,5 @@
 ## 运行与测试
 
 部署：将 dist/ 上传至任意 HTTPS 静态主机。Cloudflare Pages 项目名称 pdf，生产域名 https://pdf.090803.xyz/ 。
-
-本地预览：`npm run preview`，打开 http://localhost:5087 。
 
 测试：Node.js 22+，先运行 `npm install`，然后 `npm test`。测试样张和 PDF 写入 qa/，无需上传到服务器。
