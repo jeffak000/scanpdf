@@ -1,0 +1,7 @@
+node_modules/
+qa/
+.wrangler/
+.openai/
+.env
+.env.*
+*.log

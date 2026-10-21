@@ -1,0 +1,18 @@
+{
+  "name": "scanpdf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "手机拍照扫描、纸张裁边、逐页优化和多页 PDF",
+  "author": "gai溜子到处跑",
+  "license": "UNLICENSED",
+  "scripts": {
+    "preview": "node preview.cjs",
+    "test": "node verify.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "^0.1.80"
+  }
+}
